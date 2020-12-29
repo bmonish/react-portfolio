@@ -1,0 +1,22 @@
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+}
+
+.header__nav li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.header__links {
+    text-decoration: none;
+    color: #B3B3B3;
+    display: inline-block;
+}
+
+.header__links:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
