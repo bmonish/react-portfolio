@@ -1,7 +1,7 @@
 .specific {
     background: var(--dark-accent);
     font-family: "CaviarDreams";
-    height: 50vh;
+    min-height: 50vh;
 }
 
 .specific__header {
@@ -37,4 +37,11 @@
 
 .category__header, .category__desc {
     padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .categories__wrapper {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
 }
