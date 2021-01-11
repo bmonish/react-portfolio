@@ -2,7 +2,7 @@
     background: var(--bg-color);
     font-family: "CaviarDreams";
     padding-left: 50px;
-    height: 85vh;
+    min-height: 85vh;
     padding-top: 40px;
     display: flex;
     align-items: center;
@@ -19,4 +19,17 @@
 
 .banner__right p {
     padding: 10px 0;
+}
+
+@media screen and (max-width: 768px){
+    .banner {
+        flex-direction: column;
+        gap: 3rem;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .banner__span {
+        font-size: 100px;
+    }
 }
