@@ -26,13 +26,21 @@ function Contact() {
             <h2 className="about__accent email">
               <a href="mailto:monishmonib@gmail.com">{`monishmonib@gmail.com ->`}</a>
             </h2>
-            <a href="https://www.github.com/bmonish" target="_blank">
+            <a
+              href="https://www.github.com/bmonish"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 className="contact__icons"
                 icon={["fab", "github"]}
               />
             </a>
-            <a href="https://www.linkedin.com/in/bmonish" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/bmonish"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon
                 className="contact__icons"
                 icon={["fab", "linkedin"]}
