@@ -61,6 +61,10 @@ input:focus {
     margin-top: 20px;
 }
 
+.submit__button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .email {
     margin-top: 30px;
 }
