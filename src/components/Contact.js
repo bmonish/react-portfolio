@@ -21,7 +21,7 @@ function Contact() {
           <div className="contact__left">
             <p className="contact__header">CONNECT</p>
             <h1>
-              Got a Idea?<br></br>Let's Talk
+              Got an Idea?<br></br>Let's Talk
             </h1>
             <h2 className="about__accent email">
               <a href="mailto:monishmonib@gmail.com">{`monishmonib@gmail.com ->`}</a>
@@ -49,16 +49,16 @@ function Contact() {
           </div>
           <div className="contact__right">
             <p className="contact__header">
-              ESTIMATE YOUR PROJECT?<br></br>Let me know here
+              WANNA ESTIMATE YOUR PROJECT?<br></br>Let me know here
             </p>
             <form name="contactForm">
-              <h2>Whats your name?</h2>
+              <h2>What's your name?</h2>
               <input
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
-              <h2>Whats your email?</h2>
+              <h2>What's your email?</h2>
               <input
                 type="text"
                 value={email}
