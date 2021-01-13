@@ -14,6 +14,9 @@
   src: url('./css/CaviarDreams_Bold.ttf')
 }
 
+a{
+  text-decoration: none;
+}
 :root {
   --bg-color: #000;
   --text-color: #fff;
