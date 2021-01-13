@@ -5,7 +5,7 @@ function Banner() {
   return (
     <div className="banner">
       <div className="banner__left">
-        <h1>Hey I'm</h1>
+        <h1>Hey, I'm</h1>
         <h1>
           <span className="banner__lineOne banner__span">Monish</span>
           <br></br>
