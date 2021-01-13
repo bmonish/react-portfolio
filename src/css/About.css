@@ -1,0 +1,22 @@
+@font-face{
+    font-family: "CaviarDreams";
+    src: url('CaviarDreams.ttf');
+}
+
+@font-face{
+    font-family: "CaviarDreamsBold";
+    src: url('CaviarDreams_Bold.ttf')
+}
+
+.about {
+    background: #343537;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.about__accent {
+    font-family: "CaviarDreamsBold";
+    color: #D65A31;
+}
