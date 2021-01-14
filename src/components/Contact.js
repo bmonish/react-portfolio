@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Contact.css";
 import { Element } from "react-scroll";
 
 function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    window.open(
+      `mailto:${`monishmonib@gmail.com`}?subject=${`Contact From Website | ${email}`}&body=${name}: ${message}`
+    );
+  };
   return (
     <React.Fragment>
       <Element id="contact" name="contact">
@@ -20,15 +30,31 @@ function Contact() {
             <p className="contact__header">
               ESTIMATE YOUR PROJECT?<br></br>Let me know here
             </p>
-            <form name="contactForm" netlify>
+            <form name="contactForm">
               <h2>Whats your name?</h2>
-              <input type="text" name="name" />
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
               <h2>Whats your email?</h2>
-              <input type="text" name="email" />
+              <input
+                type="text"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
               <h2>Tell me about your project?</h2>
-              <input type="text" name="project" />
+              <input
+                type="text"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              />
               <br></br>
-              <button className="submit__button" type="submit">
+              <button
+                className="submit__button"
+                onClick={handleClick}
+                type="submit"
+              >
                 Submit
               </button>
             </form>
