@@ -13,6 +13,17 @@
     padding-bottom: 50px;
 }
 
+.contact__icons {
+    font-size: 25px;
+    color: var(--text-color);
+    padding-right: 10px;
+}
+
+.contact__icons:hover {
+    color: var(--accent-color);
+    transform: scale(1.1);
+}
+
 .contact__header {
     color: var(--accent-color);
     font-family: "CaviarDreamsBold";
@@ -52,6 +63,10 @@ input:focus {
 
 .email {
     margin-top: 30px;
+}
+
+.email a:hover {
+    color: var(--text-color);
 }
 
 .email a {

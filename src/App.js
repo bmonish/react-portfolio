@@ -6,6 +6,10 @@ import Specific from "./components/Specific";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+library.add(fab);
+
 function App() {
   return (
     <div className="app">
