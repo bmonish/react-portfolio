@@ -49,3 +49,12 @@ input:focus {
     color: var(--text-color);
     margin-top: 20px;
 }
+
+.email {
+    margin-top: 30px;
+}
+
+.email a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
