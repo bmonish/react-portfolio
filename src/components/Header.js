@@ -9,13 +9,13 @@ function Header() {
         <h3>Monish B</h3>
         <div>
           <Link
-            to="about"
+            to="skills"
             spy={true}
             smooth={true}
             duration={200}
             className="header__links"
           >
-            About
+            Skills
           </Link>
           <Link
             to="projects"

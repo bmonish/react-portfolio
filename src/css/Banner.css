@@ -1,3 +1,22 @@
 .banner {
     background: var(--bg-color);
+    font-family: "CaviarDreams";
+    padding-left: 50px;
+    height: 85vh;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+.banner__span {
+    font-size: 200px;
+}
+
+.banner__lineTwo, .banner__accent {
+    color: var(--accent-color);
+}
+
+.banner__right p {
+    padding: 10px 0;
 }
