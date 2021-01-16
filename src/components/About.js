@@ -3,7 +3,7 @@ import "../css/About.css";
 
 function About() {
   return (
-    <a href="about" name="about">
+    <a href="#" name="about">
       <div className="about">
         <div className="about__left">
           <p className="about__accent">About Me</p>
