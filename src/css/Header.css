@@ -20,6 +20,6 @@
 }
 
 .header__links:hover {
-    color:#D65A31;
+    color: var(--accent-color);
     transform: scale(1.1);
 }

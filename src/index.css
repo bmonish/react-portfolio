@@ -3,9 +3,21 @@
   padding: 0;
 }
 
+@font-face{
+  font-family: "CaviarDreams";
+  src: url('./css/CaviarDreams.ttf');
+}
+
+@font-face{
+  font-family: "CaviarDreamsBold";
+  src: url('./css/CaviarDreams_Bold.ttf')
+}
+
 :root {
   --bg-color: #000;
   --text-color: #fff;
+  --accent-color: #D65A31;
+  --dark-accent: #343537;
 }
 
 body {

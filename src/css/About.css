@@ -1,15 +1,5 @@
-@font-face{
-    font-family: "CaviarDreams";
-    src: url('CaviarDreams.ttf');
-}
-
-@font-face{
-    font-family: "CaviarDreamsBold";
-    src: url('CaviarDreams_Bold.ttf')
-}
-
 .about {
-    background: #343537;
+    background: var(--dark-accent);
     display: flex;
     align-items: flex-start;
     padding: 20px;
@@ -19,7 +9,7 @@
 
 .about__accent {
     font-family: "CaviarDreamsBold";
-    color: #D65A31;
+    color: var(--accent-color);
 }
 
 .about__para {
@@ -32,5 +22,5 @@
 
 .email a {
     text-decoration: none;
-    color: #D65A31;
+    color: var(--accent-color);
 }

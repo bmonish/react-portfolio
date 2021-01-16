@@ -1,0 +1,40 @@
+.specific {
+    background: var(--bg-color);
+    font-family: "CaviarDreams";
+    height: 50vh;
+}
+
+.specific__header {
+    padding-top: 60px;
+    padding-left: 50px;
+    color: var(--accent-color);
+}
+
+.categories__wrapper {
+    margin-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.categories {
+    background: var(--dark-accent);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--text-color);
+    max-width: 220px;
+    min-height: 200px;
+    border-radius: 30px;
+}
+
+.categories:hover {
+    background: var(--accent-color);
+    transform: scale(1.1);
+}
+
+.category__header, .category__desc {
+    padding: 10px;
+}
