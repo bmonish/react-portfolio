@@ -3,7 +3,7 @@ import "../css/Projects.css";
 
 function Projects() {
   return (
-    <a name="projects">
+    <a href="" name="projects">
       <div className="projects">
         <h1 className="projects__header">PROJECTS</h1>
         <div className="projects__showcase">
