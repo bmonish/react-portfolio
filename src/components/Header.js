@@ -11,8 +11,8 @@ function Header() {
           </a>
         </li>
         <li>
-          <a class="header__links" href="#work">
-            Work
+          <a class="header__links" href="#projects">
+            Projects
           </a>
         </li>
         <li>
