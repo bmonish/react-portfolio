@@ -37,6 +37,7 @@
 
   .grid__item:hover {
     transform: translateY(-0.5%);
+    background-color: var(--accent-color);
   }
   
   .card__img {
