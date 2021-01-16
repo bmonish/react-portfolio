@@ -17,7 +17,7 @@ function About() {
         <h1>Have any query or question?</h1>
         <p className="about__para">Let's Talk</p>
         <h2 className="about__accent email">
-          <a href="mailto:monishmonib@gmail.com">monishmonib@gmail.com -></a>
+          <a href="mailto:monishmonib@gmail.com">{`monishmonib@gmail.com ->`}</a>
         </h2>
       </div>
     </div>
