@@ -16,8 +16,8 @@ function Header() {
           </a>
         </li>
         <li>
-          <a class="header__links" href="#resume">
-            Resume
+          <a class="header__links" href="#contact">
+            Contact
           </a>
         </li>
       </nav>

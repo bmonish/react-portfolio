@@ -1,0 +1,50 @@
+.contact {
+    font-family: "CaviarDreams";
+    background-color: var(--dark-accent);
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(200px, 1fr)
+    );
+    column-gap: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.contact__header {
+    color: var(--accent-color);
+    font-family: "CaviarDreamsBold";
+}
+
+input {
+    border: none;
+    background: none;
+    width: 300px;
+    color: var(--text-color);
+    border-bottom: 2px solid white;
+    font-family: "Open Sans"
+}
+
+input:focus {
+    outline: none;
+}
+
+.contact__left h1 {
+    padding-top: 20px;
+}
+
+.contact__left h2, .contact__right h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit__button {
+    border-radius: 10px;
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    margin-top: 20px;
+}
