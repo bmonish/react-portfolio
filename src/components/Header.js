@@ -6,13 +6,13 @@ function Header() {
     <div className="header">
       <nav className="header__nav">
         <li>
-          <a class="header__links" href="#work">
-            Work
+          <a class="header__links" href="#about">
+            About
           </a>
         </li>
         <li>
-          <a class="header__links" href="#about">
-            About
+          <a class="header__links" href="#work">
+            Work
           </a>
         </li>
         <li>
