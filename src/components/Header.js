@@ -1,25 +1,45 @@
 import React from "react";
 import "../css/Header.css";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 function Header() {
   return (
     <div className="header">
       <nav className="header__nav">
-        <li>
-          <a class="header__links" href="#about">
-            About
-          </a>
-        </li>
-        <li>
-          <a class="header__links" href="#projects">
-            Projects
-          </a>
-        </li>
-        <li>
-          <a class="header__links" href="#contact">
-            Contact
-          </a>
-        </li>
+        <Link
+          to="about"
+          spy={true}
+          smooth={true}
+          duration={200}
+          className="header__links"
+        >
+          About
+        </Link>
+        <Link
+          to="projects"
+          spy={true}
+          smooth={true}
+          duration={200}
+          className="header__links"
+        >
+          Projects
+        </Link>
+        <Link
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={200}
+          className="header__links"
+        >
+          Contact
+        </Link>
       </nav>
     </div>
   );

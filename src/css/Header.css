@@ -1,5 +1,6 @@
 .header {
     background: var(--bg-color);
+    color: white;
 }
 .header__nav {
   display: flex;
@@ -8,18 +9,13 @@
   padding: 30px;
 }
 
-.header__nav li {
-    list-style-type: none;
-    padding: 15px;
-}
-
 .header__links {
-    text-decoration: none;
     color: #B3B3B3;
-    display: inline-block;
+    padding: 15px;
 }
 
 .header__links:hover {
     color: var(--accent-color);
     transform: scale(1.1);
+    cursor: pointer;
 }
