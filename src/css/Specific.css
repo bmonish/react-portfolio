@@ -43,5 +43,6 @@
     .categories__wrapper {
         flex-direction: column;
         padding-bottom: 20px;
+        gap: 50px;
     }
 }
