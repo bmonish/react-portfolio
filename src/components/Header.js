@@ -1,13 +1,6 @@
 import React from "react";
 import "../css/Header.css";
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 function Header() {
   return (

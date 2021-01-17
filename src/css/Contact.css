@@ -6,7 +6,8 @@
       auto-fit,
       minmax(200px, 1fr)
     );
-    column-gap: 100px;
+    /* column-gap: 1fr; */
+    /* justify-content: space-between; */
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 50px;

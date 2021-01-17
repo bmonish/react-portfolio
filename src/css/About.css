@@ -1,26 +1,16 @@
 .about {
-    background: var(--dark-accent);
-    display: flex;
-    align-items: flex-start;
-    padding: 20px;
+    background-color: var(--dark-accent);
     font-family: "CaviarDreams";
-    justify-content: space-around;
+    padding-left: 50px;
 }
 
-.about__accent {
-    font-family: "CaviarDreamsBold";
+.about__header {
+    padding-top: 60px;
+    padding-bottom: 20px;
     color: var(--accent-color);
 }
 
-.about__para {
-    margin-top: 15px;
-}
-
-.email {
-    margin-top: 30px;
-}
-
-.email a {
-    text-decoration: none;
-    color: var(--accent-color);
+.about__text {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
