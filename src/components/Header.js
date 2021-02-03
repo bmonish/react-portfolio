@@ -26,6 +26,13 @@ function Header() {
           >
             Projects
           </Link>
+          <a
+            href="https://drive.google.com/file/d/1b1Jco2cn4fVhUBAoa0oYuwPLS9qYMnSQ/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Resume
+          </a>
           <Link
             to="contact"
             spy={true}

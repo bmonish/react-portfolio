@@ -15,12 +15,12 @@
     font-family: "CaviarDreams";
 }
 
-.header__links {
+.header__links, a {
     color: #B3B3B3;
     padding: 15px;
 }
 
-.header__links:hover {
+.header__links:hover, a:hover {
     color: var(--accent-color);
     transform: scale(1.1);
     cursor: pointer;
