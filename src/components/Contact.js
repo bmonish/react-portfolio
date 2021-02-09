@@ -27,7 +27,7 @@ function Contact() {
               <a href="mailto:monishmonib@gmail.com">{`monishmonib@gmail.com ->`}</a>
             </h2>
             <a
-              aria-labe="Monish Github"
+              aria-label="Monish Github"
               href="https://www.github.com/bmonish"
               target="_blank"
               rel="noreferrer"
@@ -38,7 +38,7 @@ function Contact() {
               />
             </a>
             <a
-              aria-labe="Monish LinkedIn"
+              aria-label="Monish LinkedIn"
               href="https://www.linkedin.com/in/bmonish"
               target="_blank"
               rel="noreferrer"
