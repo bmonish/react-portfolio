@@ -27,6 +27,7 @@ function Contact() {
               <a href="mailto:monishmonib@gmail.com">{`monishmonib@gmail.com ->`}</a>
             </h2>
             <a
+              aria-labe="Monish Github"
               href="https://www.github.com/bmonish"
               target="_blank"
               rel="noreferrer"
@@ -37,6 +38,7 @@ function Contact() {
               />
             </a>
             <a
+              aria-labe="Monish LinkedIn"
               href="https://www.linkedin.com/in/bmonish"
               target="_blank"
               rel="noreferrer"
@@ -54,18 +56,21 @@ function Contact() {
             <form name="contactForm">
               <h2>What's your name?</h2>
               <input
+                name="userName"
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
               <h2>What's your email?</h2>
               <input
+                name="userEmail"
                 type="text"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
               <h2>Tell me about your project?</h2>
               <input
+                name="userMessage"
                 type="text"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
