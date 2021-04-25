@@ -48,6 +48,17 @@ function Contact() {
                 icon={["fab", "linkedin"]}
               />
             </a>
+            <a
+              aria-label="Monish Instagram"
+              href="https://www.instagram.com/monish.codes/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FontAwesomeIcon
+                className="contact__icons"
+                icon={["fab", "instagram"]}
+              />
+            </a>
           </div>
           <div className="contact__right">
             <p className="contact__header">
