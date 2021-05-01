@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Portfolio of Monish Baskar
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/eeee9cc3-6a17-4f1c-8cf3-77aef963e9fc/deploy-status)](https://app.netlify.com/sites/monishb/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
