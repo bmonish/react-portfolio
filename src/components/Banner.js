@@ -17,7 +17,7 @@ function Banner() {
         <h1>I am a Web Developer</h1>
         <h1>Based in Chennai</h1>
         <p>
-          I love designing and building things.<br></br>Student by Profession.
+          I love designing and building things!<br></br>Student by Profession.
           Developer by Heart. &hearts;
         </p>
       </div>
