@@ -33,6 +33,13 @@ function Header() {
           >
             Resume
           </a>
+          <a
+            href="https://bmonish.hashnode.dev/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Blog
+          </a>
           <Link
             to="contact"
             spy={true}
