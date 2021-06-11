@@ -8,12 +8,12 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleClick = (e) => {
-    e.preventDefault();
-    window.open(
-      `mailto:${`monishmonib@gmail.com`}?subject=${`Contact From Website | ${email}`}&body=${name}: ${message}`
-    );
-  };
+  // const handleClick = (e) => {
+  //   e.preventDefault();
+  //   window.open(
+  //     `mailto:${`monishmonib@gmail.com`}?subject=${`Contact From Website | ${email}`}&body=${name}: ${message}`
+  //   );
+  // };
   return (
     <React.Fragment>
       <Element id="contact" name="contact">
@@ -64,7 +64,7 @@ function Contact() {
             <p className="contact__header">
               WANNA ESTIMATE YOUR PROJECT?<br></br>Let me know here
             </p>
-            <form name="contactForm">
+            <form name="contactForm pageclip-form" action="https://send.pageclip.co/rdFtaisPVsYJ5rkYY13OPyK6DpJdnbO4" method="POST">
               <h2>What's your name?</h2>
               <input
                 name="userName"
@@ -88,8 +88,7 @@ function Contact() {
               />
               <br></br>
               <button
-                className="submit__button"
-                onClick={handleClick}
+                className="submit__button pageclip-form__submit"
                 type="submit"
               >
                 Submit
