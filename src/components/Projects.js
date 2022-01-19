@@ -53,28 +53,6 @@ function Projects() {
                   </div>
                 </div>
               </a>
-              <a
-                href="https://clone-mon.web.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <div className="grid__item">
-                  <div className="card">
-                    <img
-                      className="card__img"
-                      src="https://i.pinimg.com/originals/6e/6f/ab/6e6fabd44a036064fdd8cac6110b1c0d.jpg"
-                      alt="Snowy Mountains"
-                    />
-                    <div className="card__content">
-                      <h1 className="card__header">Amazon Clone</h1>
-                      <p className="card__text">
-                        Built using React, Firebase. With Cloud functions hosted
-                        in heroku.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
         </div>
